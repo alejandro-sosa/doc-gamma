@@ -89,3 +89,30 @@ RESUMEN DE CAMBIOS - RAMA fix-abm-minimos
 - M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
 - M	core/services/agencies.service.ts
 
+
+---
+
+## Fecha: 2026-04-08 - 2026-04-08 17:30
+
+### Rama: fix-abm-minimos
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+Resumen de cambios - fix-abm-minimos
+
+1. Se agregaron validaciones en el componente contenedor de listado de minimos (minimum.list.container.tsx)
+
+2. Los cambios fueron realizados por Alejandro el 2026-04-08
+
+3. El archivo modificado se encuentra en la ruta components/modules/minimum/container/minimum.list/
+
+4. Se trabajo sobre el modulo minimum del proyecto gamma-web-client en la rama fix-abm-minimos
+
+5. El proposito es mejorar la gestion de minimos mediante validaciones adicionales en el contenedor del listado
+
+### Commits
+- 831100d agrego validaciones (por Alejandro, 2026-04-08)
+
+### Archivos modificados
+- M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
+
