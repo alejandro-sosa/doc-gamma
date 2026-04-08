@@ -33,3 +33,30 @@ Resumen de cambios - Rama fix-abm-minimos
 ### Archivos modificados
 - M	components/discounts-and-bonuses/audit-dashboard/audit.dashboard.tsx
 
+
+---
+
+## Fecha: 2026-04-08 - 2026-04-08 11:11
+
+### Rama: fix-abm-minimos
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+Resumen de cambios:
+
+1. Se agrego una prueba para validar el comportamiento de alertas de error al exportar minimos en el modulo de liquidacion.
+
+2. El archivo modificado es el componente TypeScript que muestra los rifas incluidas en la liquidacion (show.raffles.includes.component.tsx).
+
+3. Los cambios se encuentran en la rama fix-abm-minimos del proyecto gamma-web-client.
+
+4. La modificacion fue realizada por Alejandro el 08 de abril de 2026.
+
+5. El objetivo es mejorar el manejo de errores durante el proceso de exportacion de valores minimos en el flujo de liquidacion.
+
+### Commits
+- 17acfac prueba de alerta error exportar minimos (por Alejandro, 2026-04-08)
+
+### Archivos modificados
+- M	components/modules/settlement/components/show.raffles.includes.liquidaton/show.raffles.includes.component.tsx
+
