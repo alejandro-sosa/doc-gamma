@@ -65,3 +65,34 @@ RESUMEN DE CAMBIOS - RAMA QA - PROYECTO GAMMA-WEB-CLIENT
 ### Archivos modificados
 - M	components/modules/settlement/components/show.raffles.includes.liquidaton/show.raffles.includes.component.tsx
 
+
+---
+
+## Fecha: 2026-04-08 - 2026-04-08 17:33
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA QA - GAMMA-WEB-CLIENT
+
+1. Se agregaron validaciones en los componentes de lista y tarjeta de minimos, mejorando la robustez del modulo de minimos.
+
+2. Se corrigieron errores detectados en QA en el servicio de agencias que afectan la integracion con las APIs de datos.
+
+3. Se realizaron cambios en tres archivos principales: el contenedor de lista de minimos, el componente de tarjeta de minimos y el servicio de agencias.
+
+4. Los cambios fueron consolidados mediante merge de la rama QA, asegurando que todas las correcciones esten integradas en la rama principal de desarrollo.
+
+5. Las modificaciones se enfocaron en aumentar la validacion de datos y corregir comportamientos indeseados identificados durante las pruebas de calidad.
+
+### Commits
+- 54189a1 Merge branch 'qa' of https://ta-gitlab.tecnoaccion.com.ar/gamma/gamma-web-client into qa (por Alejandro, 2026-04-08)
+- 831100d agrego validaciones (por Alejandro, 2026-04-08)
+- 2f82a90 fix de errores qa (por Alejandro, 2026-04-08)
+
+### Archivos modificados
+- M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
+- M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
+- M	core/services/agencies.service.ts
+
