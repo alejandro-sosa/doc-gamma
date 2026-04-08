@@ -60,3 +60,32 @@ Resumen de cambios:
 ### Archivos modificados
 - M	components/modules/settlement/components/show.raffles.includes.liquidaton/show.raffles.includes.component.tsx
 
+
+---
+
+## Fecha: 2026-04-08 - 2026-04-08 17:00
+
+### Rama: fix-abm-minimos
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA fix-abm-minimos
+
+1. Correccion de errores identificados en QA en el modulo de minimos
+
+2. Actualizacion del contenedor de lista de minimos (minimum.list.container.tsx) para resolver problemas detectados
+
+3. Modificacion del componente de tarjeta de minimos (card.minimum.component.tsx) para mejorar funcionalidad
+
+4. Ajustes en el servicio de agencias (agencies.service.ts) que afecta la gestion de datos de minimos
+
+5. Cambios aplicados por Alejandro el 08 de abril de 2026
+
+### Commits
+- 2f82a90 fix de errores qa (por Alejandro, 2026-04-08)
+
+### Archivos modificados
+- M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
+- M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
+- M	core/services/agencies.service.ts
+
