@@ -38,3 +38,30 @@ Resumen de cambios - Rama QA - Proyecto gamma-web-client
 - M	components/modules/shared/components/raffle.special/raffles.special.component.tsx
 - M	core/models/domain/raffles.configuration.dto.ts
 
+
+---
+
+## Fecha: 2026-04-08 - 2026-04-08 15:18
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA QA - PROYECTO GAMMA-WEB-CLIENT
+
+1. Fecha de cambio: 08 de abril de 2026, realizado por Alejandro
+
+2. Archivo modificado: componente TypeScript de visualizacion de rifas con liquidacion (show.raffles.includes.component.tsx)
+
+3. Ubicacion: directorio de componentes del modulo settlement, seccion de incluidos en liquidacion
+
+4. Proposito: prueba de alerta para capturar y validar errores durante el proceso de exportacion de valores minimos
+
+5. Alcance: cambios internos en el componente de interfaz de usuario sin afectar estructura general del proyecto
+
+### Commits
+- 17acfac prueba de alerta error exportar minimos (por Alejandro, 2026-04-08)
+
+### Archivos modificados
+- M	components/modules/settlement/components/show.raffles.includes.liquidaton/show.raffles.includes.component.tsx
+
