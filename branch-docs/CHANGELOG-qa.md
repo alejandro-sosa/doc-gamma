@@ -96,3 +96,30 @@ RESUMEN DE CAMBIOS - RAMA QA - GAMMA-WEB-CLIENT
 - M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
 - M	core/services/agencies.service.ts
 
+
+---
+
+## Fecha: 2026-04-09 - 2026-04-09 14:40
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+CAMBIOS EN LA RAMA QA - PROYECTO GAMMA-WEB-CLIENT
+
+1. Se agregaron validaciones para los dias en el componente de lista minima, asegurando que solo se acepten valores validos.
+
+2. Se implemento la opcion de seleccionar todos los dias de una vez, mejorando la experiencia del usuario al no necesitar seleccionar cada dia individualmente.
+
+3. Se realizaron mejoras en la gestion de categorias dentro del mismo componente contenedor.
+
+4. Los cambios fueron realizados en el archivo minimum.list.container.tsx ubicado en la ruta components/modules/minimum/container/minimum.list/.
+
+5. Estos ajustes buscan optimizar la funcionalidad y usabilidad del modulo de configuracion minima en el cliente web gamma.
+
+### Commits
+- 1e5dfcb se agrega validaciones para los dias, opcion de seleccionar todos los dias y mejoras en categoria. (por Alejandro, 2026-04-09)
+
+### Archivos modificados
+- M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
+
