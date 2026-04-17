@@ -123,3 +123,31 @@ CAMBIOS EN LA RAMA QA - PROYECTO GAMMA-WEB-CLIENT
 ### Archivos modificados
 - M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
 
+
+---
+
+## Fecha: 2026-04-17 - 2026-04-17 15:14
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA QA - GAMMA-WEB-CLIENT
+
+1. Se modifica el envio de datos de categoria para utilizar null en lugar de 0 como valor predeterminado.
+
+2. Cambios aplicados en el componente container de lista minima: minimum.list.container.tsx
+
+3. Actualizacion del modelo de datos minimumSales.dto.ts para reflejar la nueva logica de categoria.
+
+4. Los cambios afectan la funcionalidad de altas, bajas y modificaciones minimas (ABM).
+
+5. Commit realizado el 2026-04-17 por Alejandro.
+
+### Commits
+- 2b0275e enviar null en vez de 0 en categoria, abm minimos. (por Alejandro, 2026-04-17)
+
+### Archivos modificados
+- M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
+- M	core/models/domain/minimumSales.dto.ts
+
