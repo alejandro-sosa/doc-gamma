@@ -151,3 +151,26 @@ RESUMEN DE CAMBIOS - RAMA QA - GAMMA-WEB-CLIENT
 - M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
 - M	core/models/domain/minimumSales.dto.ts
 
+
+---
+
+## Fecha: 2026-04-21 - 2026-04-21 17:35
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+Cambios en rama qa - Proyecto gamma-web-client
+
+1. Fecha: 2026-04-21
+2. Autor: Alejandro
+3. Tipo de cambio: Correccion de errores en funcionalidad ABM (Alta, Baja, Modificacion) de minimos
+4. Archivo afectado: components/modules/shared/components/card.minimum/card.minimum.component.tsx
+5. Alcance: Componente de tarjeta para gestion de minimos en la aplicacion web
+
+### Commits
+- 9ef3c0a fix para abm minimos (por Alejandro, 2026-04-21)
+
+### Archivos modificados
+- M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
+
