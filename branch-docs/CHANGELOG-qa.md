@@ -201,3 +201,32 @@ Resumen de cambios en rama qa del proyecto gamma-web-client:
 ### Archivos modificados
 - M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
 
+
+---
+
+## Fecha: 2026-04-22 - 2026-04-22 15:30
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - Rama QA (Proyecto gamma-web-client)
+
+1. Actualizacion de funcionalidad de busqueda en categorias: Se implementaron modificaciones para permitir buscar dentro de las categorias del sistema.
+
+2. Cambios en componente de listado: Se modifico el archivo minimum.list.container.tsx para integrar la nueva funcionalidad de busqueda.
+
+3. Actualizacion de componente de tarjeta: Se ajusto el archivo card.minimum.component.tsx para reflejar los cambios en la presentacion de elementos minimos.
+
+4. Mantenimiento ABM: Se realizaron operaciones basicas de Altas, Bajas y Modificaciones en los modulos minimos.
+
+5. Merge de rama: Se integro correctamente la rama qa con los ultimos cambios del repositorio remoto.
+
+### Commits
+- 1ab4993 Merge branch 'qa' of https://ta-gitlab.tecnoaccion.com.ar/gamma/gamma-web-client into qa (por Alejandro, 2026-04-22)
+- e580f55 modificaciones para poder buscar en categorias, abm minmos (por Alejandro, 2026-04-22)
+
+### Archivos modificados
+- M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
+- M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
+
