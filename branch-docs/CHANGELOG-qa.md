@@ -174,3 +174,30 @@ Cambios en rama qa - Proyecto gamma-web-client
 ### Archivos modificados
 - M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
 
+
+---
+
+## Fecha: 2026-04-22 - 2026-04-22 15:10
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+Resumen de cambios en rama qa del proyecto gamma-web-client:
+
+1. Se modifico el componente card.minimum.component.tsx en la carpeta components/modules/shared/components/card.minimum/
+
+2. Los cambios apuntan a evitar la repeticion de sorteos en el modulo ABM minimos
+
+3. La modificacion fue realizada por Alejandro el 22 de abril de 2026
+
+4. Se trata de una unica modificacion en un archivo de componente TypeScript/React
+
+5. Los cambios forman parte del trabajo de refinamiento de la funcionalidad de sorteos dentro del sistema de administracion de minimos
+
+### Commits
+- 08f2f24 cambios para no repetir sorteos en abm minimos. (por Alejandro, 2026-04-22)
+
+### Archivos modificados
+- M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
+
