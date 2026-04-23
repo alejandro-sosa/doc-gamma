@@ -230,3 +230,34 @@ RESUMEN DE CAMBIOS - Rama QA (Proyecto gamma-web-client)
 - M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
 - M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
 
+
+---
+
+## Fecha: 2026-04-23 - 2026-04-23 12:23
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA QA
+
+Proyecto: gamma-web-client
+Fecha: 2026-04-23
+Autor: Alejandro
+
+PUNTOS CLAVE:
+
+1. Se implemento manejo de mensajes para reglas en el componente de contenedor de lista minima
+
+2. Modificacion del archivo minimum.list.container.tsx ubicado en la ruta components/modules/minimum/container/minimum.list/
+
+3. Los cambios afectan la logica de procesamiento y visualizacion de mensajes asociados a reglas dentro del contenedor
+
+4. Se realizo una actualizacion en la capa de presentacion del modulo minimum para mejorar la gestion de comunicacion de reglas al usuario
+
+### Commits
+- 41c0d8e manejo de mensajes para reglas. (por Alejandro, 2026-04-23)
+
+### Archivos modificados
+- M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
+
