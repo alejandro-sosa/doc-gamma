@@ -39,3 +39,28 @@ RESUMEN DE CAMBIOS - RAMA: enviar-masivo
 - M	components/modules/mailbox/components/sent.messages/SentMessagesOutbox.tsx
 - M	core/services/records.service.ts
 
+
+---
+
+## Fecha: 2026-04-29 - 2026-04-29 16:29
+
+### Rama: enviar-masivo
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+Cambios realizados en rama enviar-masivo:
+
+1. Archivo modificado: SentMessagesOutbox.tsx en el modulo de mailbox.
+
+2. El cambio se realizo el 29 de abril de 2026 por Alejandro.
+
+3. Se efectuaron modificaciones en el componente de mensajes enviados del buzÃ³n de salida.
+
+4. Los cambios impactan la funcionalidad de visualizacion y gestion de mensajes masivos en la aplicacion gamma-web-client.
+
+### Commits
+- a1586ed modificaciones (por Alejandro, 2026-04-29)
+
+### Archivos modificados
+- M	components/modules/mailbox/components/sent.messages/SentMessagesOutbox.tsx
+
