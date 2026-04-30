@@ -93,3 +93,30 @@ RESUMEN DE CAMBIOS - RAMA: enviar-masivo
 - M	components/modules/accountancy/containers/envio.masivo.container/envio.masivo.container.tsx
 - M	components/modules/mailbox/components/sent.messages/SentMessagesOutbox.tsx
 
+
+---
+
+## Fecha: 2026-04-30 - 2026-04-30 12:27
+
+### Rama: enviar-masivo
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA: enviar-masivo
+
+1. Archivo modificado: core/services/records.service.ts
+
+2. Cambio principal: Ajuste de ruta para corregir el proceso de envio masivo
+
+3. Proposito: Garantizar que el envio se ejecute correctamente
+
+4. Autor: Alejandro
+
+5. Fecha: 2026-04-30
+
+### Commits
+- 2d77f79 cambio la ruta para que haga el envio correctamente (por Alejandro, 2026-04-30)
+
+### Archivos modificados
+- M	core/services/records.service.ts
+
