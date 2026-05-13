@@ -261,3 +261,31 @@ PUNTOS CLAVE:
 ### Archivos modificados
 - M	components/modules/minimum/container/minimum.list/minimum.list.container.tsx
 
+
+---
+
+## Fecha: 2026-05-13 - 2026-05-13 17:10
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA QA - PROYECTO GAMMA-WEB-CLIENT
+
+1. Se anadio soporte para visualizar el numero de agencia mediante el campo agencyNumber en la tabla de padron de retenciones.
+
+2. Se modifico el componente table.padron.retention.component.tsx para integrar la nueva funcionalidad de visualizacion del numero de agencia.
+
+3. Se actualizo el modelo de dominio agencyRecord.dto.ts para incluir o exponer el campo agencyNumber en la estructura de datos.
+
+4. Los cambios fueron realizados por Alejandro el 13 de mayo de 2026.
+
+5. Estos cambios permiten a los usuarios visualizar la informacion del numero de agencia en la interfaz de contabilidad de cuentas.
+
+### Commits
+- ec48774 agencyNumber para ver numero de agencia (por Alejandro, 2026-05-13)
+
+### Archivos modificados
+- M	components/modules/accountancy/components/table.padron.retetntion.component/table.padron.retention.component.tsx
+- M	core/models/domain/agencyRecord.dto.ts
+
