@@ -289,3 +289,30 @@ RESUMEN DE CAMBIOS - RAMA QA - PROYECTO GAMMA-WEB-CLIENT
 - M	components/modules/accountancy/components/table.padron.retetntion.component/table.padron.retention.component.tsx
 - M	core/models/domain/agencyRecord.dto.ts
 
+
+---
+
+## Fecha: 2026-05-14 - 2026-05-14 17:31
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+Resumen de cambios - Rama QA - Proyecto gamma-web-client
+
+1. Se actualizo el titulo de la funcionalidad de padron retenciones en la interfaz de usuario.
+
+2. El cambio se realizo en el contenedor principal del modulo de retenciones ubicado en la capa de componentes.
+
+3. El archivo modificado es padron.retention.container.tsx dentro de la estructura de componentes de contabilidad.
+
+4. El cambio fue realizado por Alejandro el 14 de mayo de 2026.
+
+5. Se trata de una modificacion menor de etiqueta o texto visible para el usuario, sin cambios en la logica funcional del sistema.
+
+### Commits
+- 6f6a0f2 modifico titulo de padron retenciones (por Alejandro, 2026-05-14)
+
+### Archivos modificados
+- M	components/modules/accountancy/containers/padron.retention.container/padron.retention.container.tsx
+
