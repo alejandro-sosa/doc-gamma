@@ -120,3 +120,31 @@ RESUMEN DE CAMBIOS - RAMA: enviar-masivo
 ### Archivos modificados
 - M	core/services/records.service.ts
 
+
+---
+
+## Fecha: 2026-05-15 - 2026-05-15 17:44
+
+### Rama: enviar-masivo
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - enviar-masivo
+
+1. Rama de desarrollo activa para funcionalidad de envio masivo en gamma-web-client, con cambios realizados el 15 de mayo de 2026 por Alejandro.
+
+2. Modificacion en componente MailList.tsx para gestionar fecha de lectura de mensajes en la lista de correo.
+
+3. Actualizacion en componente SentMessagesOutbox.tsx para manejar fecha de lectura en mensajes enviados.
+
+4. Los cambios afectan el modulo mailbox, especificamente la visualizacion y control de estados de lectura en interfaz de usuario.
+
+5. Cambios enfocados en mejorar el seguimiento temporal de cuando los usuarios leen los mensajes en el sistema de correo masivo.
+
+### Commits
+- 99d6d43 fecha de lectura (por Alejandro, 2026-05-15)
+
+### Archivos modificados
+- M	components/modules/mailbox/components/mailList/MailList.tsx
+- M	components/modules/mailbox/components/sent.messages/SentMessagesOutbox.tsx
+
