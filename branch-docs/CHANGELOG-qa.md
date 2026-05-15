@@ -316,3 +316,31 @@ Resumen de cambios - Rama QA - Proyecto gamma-web-client
 ### Archivos modificados
 - M	components/modules/accountancy/containers/padron.retention.container/padron.retention.container.tsx
 
+
+---
+
+## Fecha: 2026-05-15 - 2026-05-15 12:21
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+CAMBIOS DOCUMENTADOS - RAMA QA - PROYECTO GAMMA-WEB-CLIENT
+
+1. Se implemento numeracion por id en la tabla del padron de retenciones, permitiendo identificar de forma unica cada registro en el listado.
+
+2. Se modifico el componente de tabla para padron de retenciones, actualizando la logica de presentacion de datos y estructura del componente TSX.
+
+3. Se actualizo el modelo de dominio agencyRecord.dto.ts para soportar los cambios necesarios en la estructura de datos de registros de agencia.
+
+4. Los cambios fueron implementados por Alejandro en la rama de aseguramiento de calidad (QA) con fecha 15 de mayo de 2026.
+
+5. Las modificaciones afectan tanto la capa de presentacion (componentes visuales) como la capa de modelos de datos (DTOs), manteniendo consistencia entre ambas capas.
+
+### Commits
+- fb759f9 numer por id en padron retenciones (por Alejandro, 2026-05-15)
+
+### Archivos modificados
+- M	components/modules/accountancy/components/table.padron.retetntion.component/table.padron.retention.component.tsx
+- M	core/models/domain/agencyRecord.dto.ts
+
