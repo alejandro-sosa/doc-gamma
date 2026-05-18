@@ -107,3 +107,42 @@
 - M	core/services/agencies.service.ts
 - M	core/services/discounts.bonuses.service.ts
 
+
+---
+
+## Fecha: 2026-05-18 - 2026-05-18 14:58
+
+### Rama: dev
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - gamma-web-client (rama dev)
+
+1. Implementacion de envio masivo de certificados: Se agrego nueva funcionalidad para enviar multiples certificados de forma simultanea mediante la creacion del contenedor envio.masivo.container.tsx y modificaciones en los componentes de filtro y tabla de certificados.
+
+2. Ajustes en rutas y logica de envio: Se corrigieron las rutas de envio para que funcionen correctamente, incluyendo cambios en el servicio de records.service.ts que gestiona la comunicacion backend.
+
+3. Mejoras en modulos de contabilidad: Se actualizaron los tipos y componentes del filtro y tabla de retencion de certificados para soportar la nueva funcionalidad de envio masivo.
+
+4. Actualizaciones en modulo de buzones: Se realizaron cambios en los componentes Mailbox, MailList y SentMessagesOutbox para integrar el nuevo sistema de envios masivos con el gestor de mensajes.
+
+5. Adicion de fecha de lectura: Se implemento el registro de fecha de lectura en los certificados procesados, mejorando el seguimiento de auditorias.
+
+### Commits
+- 0d7e8fa Merge branch 'enviar-masivo' into dev (por Alejandro, 2026-05-18)
+- 99d6d43 fecha de lectura (por Alejandro, 2026-05-15)
+- 2d77f79 cambio la ruta para que haga el envio correctamente (por Alejandro, 2026-04-30)
+- 5d88069 ultimas modificaciones (por Alejandro, 2026-04-30)
+- a1586ed modificaciones (por Alejandro, 2026-04-29)
+- c2180fe modificaciones para envio masivo de certificados (por Alejandro, 2026-04-29)
+
+### Archivos modificados
+- M	components/modules/accountancy/components/filter.certificado.component/filter.certificado.component.tsx
+- M	components/modules/accountancy/components/filter.certificado.component/filter.certificado.component.types.ts
+- M	components/modules/accountancy/components/table.certificado.retention.component/table.certificado.retention.component.tsx
+- A	components/modules/accountancy/containers/envio.masivo.container/envio.masivo.container.tsx
+- M	components/modules/mailbox/Mailbox.tsx
+- M	components/modules/mailbox/components/mailList/MailList.tsx
+- M	components/modules/mailbox/components/sent.messages/SentMessagesOutbox.tsx
+- M	core/services/records.service.ts
+
