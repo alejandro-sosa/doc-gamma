@@ -344,3 +344,31 @@ CAMBIOS DOCUMENTADOS - RAMA QA - PROYECTO GAMMA-WEB-CLIENT
 - M	components/modules/accountancy/components/table.padron.retetntion.component/table.padron.retention.component.tsx
 - M	core/models/domain/agencyRecord.dto.ts
 
+
+---
+
+## Fecha: 2026-05-20 - 2026-05-20 16:21
+
+### Rama: qa
+**Proyecto:** gamma-web-client
+
+### Resumen de cambios
+RESUMEN DE CAMBIOS - RAMA QA - PROYECTO GAMMA-WEB-CLIENT
+
+1. Merge de rama qa realizado el 20-05-2026 para integrar cambios pendientes en el repositorio remoto.
+
+2. Correccion en el componente card.minimum.component.tsx para visualizar correctamente el nombre del juego como campo opcional.
+
+3. El cambio fue aplicado por Alejandro en la rama qa del proyecto gamma-web-client.
+
+4. Modificacion afecta el archivo TypeScript/React ubicado en components/modules/shared/components/card.minimum/.
+
+5. Implementacion permite que el nombre del juego se muestre de forma condicional segun su disponibilidad en los datos del componente.
+
+### Commits
+- 9620439 Merge branch 'qa' of https://ta-gitlab.tecnoaccion.com.ar/gamma/gamma-web-client into qa (por Alejandro, 2026-05-20)
+- 309acce fix para que se vea el nombre del juego Opcional (por Alejandro, 2026-05-20)
+
+### Archivos modificados
+- M	components/modules/shared/components/card.minimum/card.minimum.component.tsx
+
